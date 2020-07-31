@@ -1,0 +1,177 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.parallax{
+  background-image: url("/images/hero.jpeg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.new-fontt{
+  font-family: 'Permanent Marker', cursive;
+  color: salmon !important;
+}
+.about-image{
+  box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+  border-radius: 10px;
+}
+.about-text{
+  font-size: 1.2rem;
+}
+.success-msg{
+  color: #57A773;
+  padding: 10px 15px;
+}
+.err-msg{
+  color: #EE6352 ;
+  padding: 10px 15px;
+}
+footer{
+  background-color: salmon;
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 500;
+}
+.main_col{
+  opacity: 0;
+}
+
+.First{
+  height: 100vh;
+  visibility: hidden;
+}
+.Second{
+  width: 1440px;
+  min-width: 1440px;
+  margin: 0 auto;
+}
+.First-inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 24px;
+  height: 100vh;
+}
+.First-content{
+  width: 50%;
+}
+.First-content-inner{
+  width: 400px;
+  margin: 0 auto;
+  color: #323232;
+}
+.main{
+  font-weight: 500;
+  font-size: 32px;
+  margin-bottom: 24px !important;
+}
+.First-content-line{
+  margin: 0;
+  height: 44px;
+  overflow: hidden;
+}
+p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  padding-right: 48px;
+  margin-bottom: 56px;
+}
+.btn-row{
+  position: relative;
+}
+.btn-row::before{
+  position: absolute;
+  content: "";
+  width: 56px;
+  height: 1px;
+  background-color: #dfdfdf;
+  top: 50%;
+  left: -68px;
+}
+button{
+  background: none;
+  border: none;
+  font-size: 12px;
+  padding: 0;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.7px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+button:focus{
+  outline: none;
+}
+.arrow-icon{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #5907fe;
+  height: 42px;
+  width: 42px;
+  border-radius: 100px;
+  left: 80px;
+}
+.First-images{
+  width: 50%;
+  height: 100vh;
+  position: relative;
+}
+.First-images-inner{
+
+}
+.First-image{
+  position: absolute;
+  overflow: hidden;
+}
+.boy{
+  top: 0;
+  right: 0;
+  width: 45%;
+  height: 50%;
+
+}
+.boy_two{
+  bottom: 24px;
+  left: 0px;
+  width: 52%;
+  height: 65%;
+}
+.picture{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.Project_card{
+  cursor: pointer;
+}
+.social-icons{
+  margin: 1rem;
+  cursor: pointer;
+  color: #323232;
+}
+
+
+
